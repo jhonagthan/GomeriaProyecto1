@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica Gomeria</title>
-    <link rel="stylesheet" href="style-gomeria.css">
+    <link rel="stylesheet" href="./styles/style-gomeria.css">
 </head>
 <body>
     <header>
@@ -63,17 +63,22 @@
              src="/assist/Neumáticos Gomeria - Publicidad.mp4">            
             </video>
         </section>
-        <section>
-            <h3 id="contacto">Contacto</h3>
+        <section class="formulario-gomeria">
+            <h3 id="contacto">Envie Sus Datos Para Contactarlo</h3>
             <form action="">
                 <div>
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre">Ingrese Nombre</label>
                     <input id="nombre" type="text" required>
                 </div>
                 <br>
                 <div>
+                    <label for="apellido">Ingrese Apellido</label>
+                    <input id="apellido" type="text" required>
+                </div>                
+                <br>
+                <div>
                     <label for="email">Email</label>
-                    <input id="email" type="email">
+                    <input id="email" type="email" required>
                 </div>
                 <br>
                 <div>
@@ -97,7 +102,7 @@
             <ul class="lista">
                 <li>
                     <div class="subtitulo-caja">
-                        <h4>Contacto </h4>   
+                        <h4> Datos para contactarnos</h4>   
                     </div>                                     
                     <p>11 28603106</p>
                 </li>

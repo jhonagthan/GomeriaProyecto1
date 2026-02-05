@@ -8,6 +8,7 @@
 
 .logo-pagina{
     width: 175px;
+    padding-bottom: 15px;
 }
 
 .cabezal{
@@ -100,15 +101,42 @@
     justify-content: end;
 }
 
+.seccion-equipo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .seccion-equipo h2{
     margin-bottom: 20px;
+    color:#beb22a;
+    background-color:  #464444;
+    border-radius: 5px;
 }
 
 .video-equipo{
     background-color: black;
-    width: 99.5%;
+    width: 90%;
     height: 375px;
     border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.formulario-gomeria{
+    background-color: #CCC5b7;
+    width: 85%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    
+}
+.formulario-gomeria div{
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 /* Pie de la pagina (Footer) */
