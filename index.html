@@ -23,7 +23,7 @@
     </header>
     <main>
         <div class="caja-productos">
-            <h2>Productos</h2>
+            <h2>Productos Recomendados</h2>
             <h4>Productos Mas Comprados</h4>
         </div>
         <section class="servicios">            
@@ -58,13 +58,12 @@
         <section class="seccion-equipo">
             <h2>Video Informativo Sobre Nosotros</h2>
             <video class="video-equipo"
-            autoplay
             controls
              src="/assist/Neumáticos Gomeria - Publicidad.mp4">            
             </video>
         </section>
         <section class="formulario-gomeria">
-            <h3 id="contacto">Envie Sus Datos Para Contactarlo</h3>
+            <h3>Envie Sus Datos Para Contactarlo</h3>
             <form action="">
                 <div>
                     <label for="nombre">Ingrese Nombre</label>
@@ -80,15 +79,15 @@
                     <label for="email">Email</label>
                     <input id="email" type="email" required>
                 </div>
-                <br>
-                <div>
+<!--                 <div>
                     <label for="file"></label>
                     <input id="file" type="file">
-                </div>
+                </div> -->
                 <br>
-                <div>
-                    <label for="mensaje">Deje un mensaje para nosotros</label>
-                    <input id="mensaje" type="text">
+                <div class="mensaje">
+                    <label for="comentarios">Deje un mensaje para nosotros y/o Dato Adicional</label>
+                    <br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="40"></textarea>
                 </div>
                 <br>
                 <button type="submit" aria-label="enviar formulario">Enviar</button>
@@ -102,7 +101,7 @@
             <ul class="lista">
                 <li>
                     <div class="subtitulo-caja">
-                        <h4>Contacto</h4>   
+                        <h4 id="contacto" >Nuestro Contacto</h4>   
                     </div>                                     
                     <p>11 28603106</p>
                 </li>
@@ -114,7 +113,7 @@
                 </li>
                 <li>
                     <div class="subtitulo-caja">
-                        <h4>Soporte </h4>
+                        <h4>Soporte Lubricentro </h4>
                     </div>
                     <p>soportegomeria@gmail.com</p>
                 </li>

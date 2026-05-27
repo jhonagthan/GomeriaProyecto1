@@ -24,7 +24,7 @@
 }
 
 .cabezal a{
-    color: #b93232;
+    color: #C62828;
     font-size: 18px;
     text-decoration: none;
 }
@@ -48,7 +48,7 @@
 /* Cuerpo (Main) */
 
 body{
-    background-color: #393737;
+    background-color: #242424;
 }
 
 
@@ -61,12 +61,8 @@ body{
 
 .caja-productos h4{
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     color: #FF8C00;
-}
-
-.caja-productos h2{
-    text-align: center;
 }
 
 .servicios{
@@ -86,16 +82,15 @@ body{
     background-color: #FFFFFF;
     padding: 20px;   
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
-    box-shadow: 5px 4px 10px rgba(247, 202, 40, 0.834);
+    box-shadow: 0 4px 10px rgba(173, 155, 20, 0.834);
     transition: transform 1.5s ease;
 }
 
 .articulos:hover{
     transform: scale(1.04);
-    cursor: pointer;
 }
 
 .articulos h3{
@@ -123,74 +118,82 @@ body{
     justify-content: end;
 }
 
-.seccion-equipo{
-    margin-top: 20px;
+.tipo-tazas{
+    color: #E67E22;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tazas{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.tazitas{
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;   
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(173, 155, 20, 0.834);
+    transition: transform 1.5s ease;
 }
 
-.seccion-equipo h2{
-    margin-bottom: 20px;
-    color: #1F1F1F;
-    background-color: #F2C94C;
-    border-radius: 5px;
+.tazitas:hover{
+    transform: scale(1.04);
 }
 
-.video-equipo{
-    background-color: black;
-    width: 90%;
-    height: 375px;
-    border-radius: 20px;
-    margin-bottom: 25px;
+.tazitas img{
+    width: 130px;
+    padding-bottom: 10px;
 }
 
-.formulario-gomeria{
-    background-color: #d0ad41;
-    color: #000000;
-    width: 85%;
-    margin-left: 8%;
-    margin-bottom: 15px;
+.tazitas h4{
+    font-size: 21px;
+    color: #E67E22;
+}
+
+.taza2 img{
+    width: 240px;
+}
+.taza3 img{
+    width: 160px;
+}
+
+.guia{
     margin-top: 10px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 8px;
-    
+    margin-bottom: 10px;
 }
 
-.formulario-gomeria h3::before{
-    content: "✉️";
-}
-
-.formulario-gomeria div{
-    padding-top: 10px;
+.precio-taza{
+    width: 115px;
+    background-color: #423f3f;
+    color: #E67E22;
     padding-left: 10px;
-}
-
-.formulario-gomeria button{
-    width: 100px;
-    background-color: #393737;
-    border: #000000 solid;
+    margin-right: 100px;
     border-radius: 5px;
-    color: #ffffff;
-}
-
-.formulario-gomeria button:hover{
-    cursor: pointer;
-}
-
-.mensaje{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: start;
+    align-items: start;
 }
 
 /* Pie de la pagina (Footer) */
 
 .caja{
-    background-color:  #1f1f1f46;
+    background-color:  #1F1F1F;
     border-top: 2px solid #000000;
     flex-wrap: wrap;
     border-radius: 5px;
@@ -211,14 +214,15 @@ body{
     padding: 1rem;
 }
 .lista p{
-    color: #d5833b;
+    color: #F2C94C;
     margin-top: 8px;
     margin-bottom: 8px;
-    padding-left: 2.5%;
+    padding-left: 50px;
 }
 
 .boton-inicio{
-    margin-left: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
