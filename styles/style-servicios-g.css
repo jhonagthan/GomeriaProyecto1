@@ -48,7 +48,7 @@
 /* Cuerpo (Main) */
 
 body{
-    background-color: #242424;
+    background-color: #393737;
 }
 
 
@@ -193,7 +193,7 @@ body{
 /* Pie de la pagina (Footer) */
 
 .caja{
-    background-color:  #1F1F1F;
+    background-color:  #1f1f1f46;
     border-top: 2px solid #000000;
     flex-wrap: wrap;
     border-radius: 5px;
@@ -214,15 +214,14 @@ body{
     padding: 1rem;
 }
 .lista p{
-    color: #F2C94C;
+    color: #d5833b;
     margin-top: 8px;
     margin-bottom: 8px;
-    padding-left: 50px;
+    padding-left: 2.5%;
 }
 
 .boton-inicio{
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,3 +234,4 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+
