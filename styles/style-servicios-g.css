@@ -59,10 +59,15 @@ body{
     color: #F8F9FA;
 }
 
+.caja-productos h2{
+    text-align: center;
+}
+
 .caja-productos h4{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 32px;
     color: #FF8C00;
+    text-align: center;
 }
 
 .servicios{
@@ -85,12 +90,13 @@ body{
     margin-bottom: 30px;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(173, 155, 20, 0.834);
+    box-shadow: 5px 4px 10px rgba(247, 202, 40, 0.834);
     transition: transform 1.5s ease;
 }
 
 .articulos:hover{
     transform: scale(1.04);
+    cursor: pointer;
 }
 
 .articulos h3{
@@ -147,12 +153,13 @@ body{
     margin-bottom: 30px;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(173, 155, 20, 0.834);
+    box-shadow: 5px 4px 10px rgba(247, 202, 40, 0.834);
     transition: transform 1.5s ease;
 }
 
 .tazitas:hover{
     transform: scale(1.04);
+    cursor: pointer;
 }
 
 .tazitas img{
