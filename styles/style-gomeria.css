@@ -63,8 +63,11 @@ body{
     color: #F8F9FA;
 }
 
+.caja-productos h2{
+    text-align: center;
+}
+
 .caja-productos h4{
-    margin-top: 10px;
     font-size: 22px;
     color: #FF8C00;
 }
