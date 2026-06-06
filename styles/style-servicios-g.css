@@ -53,21 +53,18 @@ body{
 
 
 .caja-productos{
-    padding-left: 25px;
-    margin-top: 25px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
     color: #F8F9FA;
 }
 
-.caja-productos h2{
-    text-align: center;
-}
-
 .caja-productos h4{
-    margin-top: 10px;
     font-size: 32px;
     color: #FF8C00;
-    text-align: center;
 }
 
 .servicios{
