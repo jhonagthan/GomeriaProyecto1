@@ -4,22 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica Gomeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style-gomeria.css">
 </head>
 <body>
     <header>
-        <section class="cabezal">
+    <!--<section class="cabezal">
             <img class="logo-pagina" src="./assist/logo.png" alt="logo-pag">
             <nav>    
                 <h1 id="titulo">Gomeria Lubricentro Budge</h1>
-                <!--Interno-->
+                Interno
                 <a class="letra-cabezal" href="./pages/servicios-gomeria.html">Servicios G y L</a>
-                <!--Anclaje-->
+                Anclaje
                 <a class="letra-cabezal" href="#contacto">Contacto</a>
                 <a class="letra-cabezal" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
-
             </nav>
-        </section>
+        </section>-->
+
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <div class="d-flex py-3">
+                    <img class="logo-pagina" src="./assist/logo.png" alt="logo-pag">
+                    <h1 class="fs-5 m-3" >GOMERIA Y LUBRICENTRO BUDGE</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a id="titulo" class="nav-link active" aria-current="page" href="./pages/servicios-gomeria.html">Servicios G y L</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </header>
     <main>
         <div class="caja-productos">

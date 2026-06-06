@@ -6,7 +6,12 @@
 
 /* Cabezal (Header) */
 
-.logo-pagina{
+.container-fluid img{
+    width: 100px;
+    padding-right: 1%;
+}
+
+/* .logo-pagina{
     width: 175px;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -43,7 +48,7 @@
 .letra-cabezal{
     margin-right: 10px;
     color: #000000;
-}
+} */
 
 /* Cuerpo (Main) */
 
@@ -197,7 +202,6 @@ body{
     border-top: 2px solid #000000;
     flex-wrap: wrap;
     border-radius: 5px;
-    width: 100%;
 }
 .subtitulo-caja{
     width: 200px;
@@ -206,6 +210,10 @@ body{
     padding-left: 15px;
     background-color: #F9F9F9;
     border-radius: 5px;
+}
+
+.subtitulo-caja h4{
+    font-size: 100%;
 }
 
 .lista{
